@@ -1,0 +1,563 @@
+.input-radio {
+    margin: 1em 0;
+}
+
+.input-radio input[type="radio"]:checked + label:before {
+    border-color: black;
+}
+
+.input-radio input[type="radio"]:checked + label:after {
+    background-color: black;
+    transform: scale(1);
+}
+
+.input-radio input[type="radio"]:hover + label:before {
+    border-color: black;
+}
+
+.input-radio input[type="radio"]:hover + label span {
+    color: black;
+}
+
+.input-radio input[type="radio"]:checked + label span {
+    color: black;
+}
+
+.input-radio input[type="radio"] + label span {
+    color: grey;
+    transition: all 0.3s;
+}
+
+.input-radio input[type="radio"]:focus + label:before {
+    box-shadow: 0 0 4px black;
+}
+
+.input-radio input[type="radio"] {
+    opacity: 0;
+}
+
+.input-radio input[type="radio"] + label {
+    position: relative;
+    cursor: pointer;
+}
+
+.input-radio input[type="radio"] + label:before {
+    content: '';
+    position: absolute;
+    left: -24px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid grey;
+    transition: all 0.3s;
+}
+
+.input-radio input[type="radio"] + label:after {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: -1px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    transform: scale(0);
+    transition: all 0.3s;
+}
+
+.button-save {
+    border-radius: 14px;
+    background-color: grey;
+    width: 50%;
+    height: 32px;
+    margin: 1em auto;
+    text-align: center;
+    line-height: 32px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button-save:hover {
+    background-color: black;
+}
+
+.button-save span {
+    position: relative;
+    transition: all 0.3s;
+}
+
+.button-save i {
+    font-size: 120%;
+    position: absolute;
+    opacity: 0;
+    left: -20px;
+    transition: all 0.3s;
+}
+
+.button-save:hover span {
+    padding-left: 25px;
+}
+
+.button-save:hover i {
+    opacity: 1;
+    left: 0;
+}
+
+.button-save-disabled {
+    border-radius: 14px;
+    background-color: grey;
+    width: 50%;
+    height: 32px;
+    margin: 1em auto;
+    text-align: center;
+    line-height: 32px;
+    color: white;
+    cursor: pointer;
+    opacity: 0.6;
+    cursor: not-allowed;
+    transition: all 0.3s;
+}
+
+.button-save-disabled span {
+    position: relative;
+}
+
+.button-save-disabled i {
+    position: absolute;
+    opacity: 0;
+}
+
+.ns-box.ns-other.ns-effect-thumbslider.ns-type-error#canceled {
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.ns-box.ns-growl.ns-effect-jelly.ns-type-error#canceled {
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.input-radio-night {
+    margin: 1em 0;
+}
+
+.input-radio-night input[type="radio"]:checked + label:before {
+    border-color: white;
+}
+
+.input-radio-night input[type="radio"]:checked + label:after {
+    background-color: white;
+    transform: scale(1);
+}
+
+.input-radio-night input[type="radio"]:hover + label:before {
+    border-color: white;
+}
+
+.input-radio-night input[type="radio"]:hover + label span {
+    color: white;
+}
+
+.input-radio-night input[type="radio"]:checked + label span {
+    color: white;
+}
+
+.input-radio-night input[type="radio"] + label span {
+    color: grey;
+    transition: all 0.3s;
+}
+
+.input-radio-night input[type="radio"]:focus + label:before {
+    box-shadow: 0 0 4px white;
+}
+
+.input-radio-night input[type="radio"] {
+    opacity: 0;
+}
+
+.input-radio-night input[type="radio"] + label {
+    position: relative;
+    cursor: pointer;
+}
+
+.input-radio-night input[type="radio"] + label:before {
+    content: '';
+    position: absolute;
+    left: -24px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid grey;
+    transition: all 0.3s;
+}
+
+.input-radio-night input[type="radio"] + label:after {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: -1px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    transform: scale(0);
+    transition: all 0.3s;
+}
+
+div.veditor-area i.ri-restart-line {
+    font-size:140%;
+    color:silver;
+    right: 2.4em;
+    transition: all 0.5s;
+}
+
+div.veditor-area i.ri-restart-line:hover {
+    color: grey;
+}
+
+div.veditor-area i.ri-restart-line:focus {
+    color: grey;
+}
+
+textarea.mvsys {
+    border: 2px solid grey;
+    padding-top: 8px;
+    padding-left: 12px;
+    border-radius: 20px;
+    width: 95%;
+    transition: all 0.5s;
+}
+
+textarea.mvsys:hover {
+    border-color: black;
+}
+
+textarea.mvsys:focus {
+    border-color: black;
+    outline: 0;
+    box-shadow: 0 0 4px black;
+}
+
+textarea.mvsys#night {
+    border: 2px solid grey;
+    padding-top: 8px;
+    padding-left: 12px;
+    border-radius: 20px;
+    width: 95%;
+    transition: all 0.5s;
+}
+
+textarea.mvsys#night:hover {
+    border-color: white;
+}
+
+textarea.mvsys#night:focus {
+    border-color: white;
+    outline: 0;
+    box-shadow: 0 0 4px white;
+}
+
+#darkmode .commentTrigger{
+    background-color: #252525 !important;
+}
+
+#darkmode .MiniValine .vpage .more{
+    background: #21232F;
+}
+
+#darkmode img{
+    filter: brightness(30%);
+}
+
+#darkmode .MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment.expand:before{
+    background: linear-gradient(180deg, rgba(246,246,246,0), rgba(0,0,0,0.9));
+}
+
+#darkmode .MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment.expand:after{
+    background: rgba(0,0,0,0.9);
+}
+
+#darkmode .MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment pre{
+    background: #282c34;
+    border: 1px solid #282c34;
+}
+
+#darkmode .MiniValine .vinputs-area .vextra-area .vsmile-icons{
+    background: transparent;
+}
+
+.loading {
+    width: 100%;
+    height: 500px;
+    transform: scale(1.2);
+    position: absolute;
+}
+
+.loading i {
+    margin: auto;
+    position: absolute;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+.loading span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.loading span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 10px;
+    height: 10px;
+    background: var(--main, #00baff);
+    border-radius: 50%;
+}
+
+.loading span:nth-child(1) {
+    animation: i1 5.5s 0.2s infinite;
+}
+
+.loading span:nth-child(2) {
+    animation: i2 5.5s 0.4s infinite;
+}
+
+.loading span:nth-child(3) {
+    animation: i3 5.5s 0.6s infinite;
+}
+
+.loading span:nth-child(4) {
+    animation: i4 5.5s 0.8s infinite;
+}
+
+.loading span:nth-child(5) {
+    animation: i5 5.5s 1s infinite;
+}
+
+.loading span:nth-child(6) {
+    animation: i6 5.5s 1.2s infinite;
+}
+
+@keyframes i1 {
+    0% {
+        opacity: 1;
+        transform: rotate(190deg);
+        animation-timing-function: cubic-bezier(0.29, 0.44, 0.32, 0.74);
+    }
+    7% {
+        opacity: 1;
+        transform: rotate(300deg);
+        animation-timing-function: linear;
+    }
+    30% {
+        opacity: 1;
+        transform: rotate(450deg);
+        animation-timing-function: cubic-bezier(0.53, 0.27, 0.37, 0.81);
+    }
+    39% {
+        opacity: 1;
+        transform: rotate(645deg);
+        animation-timing-function: linear;
+    }
+    63% {
+        opacity: 1;
+        transform: rotate(800deg);
+        animation-timing-function: cubic-bezier(0.5, 0.32, 0.82, 0.54);
+    }
+    68% {
+        opacity: 1;
+        transform: rotate(920deg);
+        animation-timing-function: ease-in;
+    }
+    69% {
+        opacity: 0;
+        transform: rotate(930deg);
+    }
+}
+@keyframes i2 {
+    0% {
+        opacity: 1;
+        transform: rotate(180deg);
+        animation-timing-function: cubic-bezier(0.29, 0.44, 0.32, 0.74);
+    }
+    7% {
+        opacity: 1;
+        transform: rotate(300deg);
+        animation-timing-function: linear;
+    }
+    30% {
+        opacity: 1;
+        transform: rotate(450deg);
+        animation-timing-function: cubic-bezier(0.53, 0.27, 0.37, 0.81);
+    }
+    39% {
+        opacity: 1;
+        transform: rotate(645deg);
+        animation-timing-function: linear;
+    }
+    63% {
+        opacity: 1;
+        transform: rotate(800deg);
+        animation-timing-function: cubic-bezier(0.5, 0.32, 0.82, 0.54);
+    }
+    68% {
+        opacity: 1;
+        transform: rotate(910deg);
+        animation-timing-function: ease-in;
+    }
+    69% {
+        opacity: 0;
+        transform: rotate(920deg);
+    }
+}
+@keyframes i3 {
+    0% {
+        opacity: 1;
+        transform: rotate(170deg);
+        animation-timing-function: cubic-bezier(0.29, 0.44, 0.32, 0.74);
+    }
+    7% {
+        opacity: 1;
+        transform: rotate(300deg);
+        animation-timing-function: linear;
+    }
+    30% {
+        opacity: 1;
+        transform: rotate(450deg);
+        animation-timing-function: cubic-bezier(0.53, 0.27, 0.37, 0.81);
+    }
+    39% {
+        opacity: 1;
+        transform: rotate(645deg);
+        animation-timing-function: linear;
+    }
+    63% {
+        opacity: 1;
+        transform: rotate(800deg);
+        animation-timing-function: cubic-bezier(0.5, 0.32, 0.82, 0.54);
+    }
+    68% {
+        opacity: 1;
+        transform: rotate(900deg);
+        animation-timing-function: ease-in;
+    }
+    69% {
+        opacity: 0;
+        transform: rotate(910deg);
+    }
+}
+@keyframes i4 {
+    0% {
+        opacity: 1;
+        transform: rotate(160deg);
+        animation-timing-function: cubic-bezier(0.29, 0.44, 0.32, 0.74);
+    }
+    7% {
+        opacity: 1;
+        transform: rotate(300deg);
+        animation-timing-function: linear;
+    }
+    30% {
+        opacity: 1;
+        transform: rotate(450deg);
+        animation-timing-function: cubic-bezier(0.53, 0.27, 0.37, 0.81);
+    }
+    39% {
+        opacity: 1;
+        transform: rotate(645deg);
+        animation-timing-function: linear;
+    }
+    63% {
+        opacity: 1;
+        transform: rotate(800deg);
+        animation-timing-function: cubic-bezier(0.5, 0.32, 0.82, 0.54);
+    }
+    68% {
+        opacity: 1;
+        transform: rotate(890deg);
+        animation-timing-function: ease-in;
+    }
+    69% {
+        opacity: 0;
+        transform: rotate(900deg);
+    }
+}
+@keyframes i5 {
+    0% {
+        opacity: 1;
+        transform: rotate(150deg);
+        animation-timing-function: cubic-bezier(0.29, 0.44, 0.32, 0.74);
+    }
+    7% {
+        opacity: 1;
+        transform: rotate(300deg);
+        animation-timing-function: linear;
+    }
+    30% {
+        opacity: 1;
+        transform: rotate(450deg);
+        animation-timing-function: cubic-bezier(0.53, 0.27, 0.37, 0.81);
+    }
+    39% {
+        opacity: 1;
+        transform: rotate(645deg);
+        animation-timing-function: linear;
+    }
+    63% {
+        opacity: 1;
+        transform: rotate(800deg);
+        animation-timing-function: cubic-bezier(0.5, 0.32, 0.82, 0.54);
+    }
+    68% {
+        opacity: 1;
+        transform: rotate(880deg);
+        animation-timing-function: ease-in;
+    }
+    69% {
+        opacity: 0;
+        transform: rotate(880deg);
+    }
+}
+@keyframes i6 {
+    0% {
+        opacity: 1;
+        transform: rotate(140deg);
+        animation-timing-function: cubic-bezier(0.29, 0.44, 0.32, 0.74);
+    }
+    7% {
+        opacity: 1;
+        transform: rotate(300deg);
+        animation-timing-function: linear;
+    }
+    30% {
+        opacity: 1;
+        transform: rotate(450deg);
+        animation-timing-function: cubic-bezier(0.53, 0.27, 0.37, 0.81);
+    }
+    39% {
+        opacity: 1;
+        transform: rotate(645deg);
+        animation-timing-function: linear;
+    }
+    63% {
+        opacity: 1;
+        transform: rotate(800deg);
+        animation-timing-function: cubic-bezier(0.5, 0.32, 0.82, 0.54);
+    }
+    68% {
+        opacity: 1;
+        transform: rotate(870deg);
+        animation-timing-function: ease-in;
+    }
+    69% {
+        opacity: 0;
+        transform: rotate(880deg);
+    }
+}
